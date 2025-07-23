@@ -1,0 +1,101 @@
+.navbar-container {
+  background: linear-gradient(90deg, #1d0f4a, #5e0e83);
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 1px solid yellow;
+  position: relative;
+}
+
+.navbar-title {
+  color: #f5c518;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.navbar-subtitle {
+  color: #ddd;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.navbar-login-wrapper {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}
+
+.login-button {
+  background-color: #d9a300;
+  color: #111;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #f5c518;
+}
+
+.login-icon {
+  font-size: 18px;
+}
+
+.navbar-tabs {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #5e0e83;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 12px 0;
+  background: transparent;
+  border: none;
+  color: #888;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.tab-button.active {
+  background-color: #d9a300;
+  color: #111;
+}
+
+.tab-button:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .navbar-login-wrapper {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .navbar-tabs {
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .tab-button {
+    padding: 10px;
+  }
+}
