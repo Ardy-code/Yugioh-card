@@ -1,71 +1,69 @@
-seren orang nya soft
-
 ## 🃏 Yu-Gi-Oh! cardyugioh
 
-**Yu-Gi-Oh!** Card Explorer adalah aplikasi berbasis web yang memungkinkan pengguna untuk menjelajahi berbagai kartu Yu-Gi-Oh!. Aplikasi ini dibangun menggunakan React.js dan JavaScript, serta terhubung langsung dengan API publik dari:
+**cardyugioh** Card Explorer adalah aplikasi berbasis web yang memungkinkan pengguna untuk menjelajahi berbagai kartu Yu-Gi-Oh!. Aplikasi ini dibangun menggunakan React.js dan JavaScript, serta terhubung langsung dengan API publik dari:
+
 [https://db.ygoprodeck.com/api/v7/cardinfo.php]
 
 Melalui aplikasi ini, pengguna dapat melakukan pencarian kartu Yu-Gi-Oh! dan menyusun deck kartu mereka sendiri secara interaktif dan efisien.
 
-## Deskripsi
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deskripsi Proyek
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Aplikasi ini merupakan bagian dari proyek UAS pada mata kuliah _Kerangka Kerja Pengembangan Antarmuka Website_. Aplikasi ini memungkinkan pengguna untuk mencari berbagai macam kartu Yu-Gi-Oh! serta menyusun sebuah deck dari kartu-kartu tersebut.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API yang digunakan
 
-### `npm run build`
+Data kartu Yu-Gi-Oh diambil dari API publik:
+[https://db.ygoprodeck.com/api/v7/cardinfo.php]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Fitur-Fitur Utama Pada Aplikasi cardyugioh
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Pencarian kartu sesuai dengan nama dan kategori yang telah disiapkan
+- Membuat deck kartu dengan menambahkan kartu Yu-Gi-Oh di halaman utama (Redux + localstorage)
+- Autentikasi pengguna (login & Register) dengan mendaftarkan secara mandiri
+- Detail informasi mengenai kartu Yu-Gi-Oh
+- Desain responsif dalam tampilan dekstop maupun mobile
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Struktur Halaman & Routing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `/` – Halaman utama (Browse Cards) Menampilkan daftar kartu Yu-Gi-Oh! yang diambil dari API publik.
+- `/Search` - Pencarian & Filter Kartu Menyediakan fitur pencarian kartu berdasarkan nama, serta filter berdasarkan tipe dan ras
+- `/Decks` – Koleksi Deck yang Menampilkan seluruh deck yang telah dibuat oleh user, lengkap dengan fitur edit, lihat, dan hapus
+- `/Login` - Halaman Login untuk Autentikasi user berdasarkan email dan password.
+- `/Register` - Halaman Registrasi Mendaftarkan user baru ke sistem lokal (disimpan di localStorage).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Cara Menjalankan Secara Lokal
 
-## Learn More
+1. **Clone repository:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   git clone https://github.com/Ardy-code/Yugioh-card.git
+   cd Yugioh-card
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Install dependencies:**
 
-### Code Splitting
+   ```bash
+   npm install
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. **Jalankan development server:**
+   ```bash
+   npm start
+   ```
+   Aplikasi akan berjalan di `http://localhost:3000`.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Link Live Demo
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **https://cardyugioh.vercel.app/**
