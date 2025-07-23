@@ -2,11 +2,12 @@ seren orang nya soft
 
 ## 🃏 Yu-Gi-Oh! cardyugioh
 
-### Yu-Gi-Oh! cardyugioh
+**Yu-Gi-Oh!** Card Explorer adalah aplikasi berbasis web yang memungkinkan pengguna untuk menjelajahi berbagai kartu Yu-Gi-Oh!. Aplikasi ini dibangun menggunakan React.js dan JavaScript, serta terhubung langsung dengan API publik dari:
+[https://db.ygoprodeck.com/api/v7/cardinfo.php]
 
-adalah Aplikasi berbasis website yang memungkinkan pengguna menjelajahi berbagai kartu Yu-Gi-Oh!. dibangun dengan react.js dan javascript, aplikasi ini terhubung langsung dengan API publik dari https://db.ygoprodeck.com/api/v7/cardinfo.php, aplikasi ini menawarkan pengguna untuk membuat deck kartu mereka sendiri
+Melalui aplikasi ini, pengguna dapat melakukan pencarian kartu Yu-Gi-Oh! dan menyusun deck kartu mereka sendiri secara interaktif dan efisien.
 
-### `npm start`
+## Deskripsi
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
