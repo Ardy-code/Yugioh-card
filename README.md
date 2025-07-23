@@ -1,8 +1,10 @@
-seren orang nya soft spoken banget
+seren orang nya soft
 
-## Available Scripts
+## 🃏 Yu-Gi-Oh! cardyugioh
 
-In the project directory, you can run:
+### Yu-Gi-Oh! cardyugioh
+
+adalah Aplikasi berbasis website yang memungkinkan pengguna menjelajahi berbagai kartu Yu-Gi-Oh!. dibangun dengan react.js dan javascript, aplikasi ini terhubung langsung dengan API publik dari https://db.ygoprodeck.com/api/v7/cardinfo.php, aplikasi ini menawarkan pengguna untuk membuat deck kartu mereka sendiri
 
 ### `npm start`
 
